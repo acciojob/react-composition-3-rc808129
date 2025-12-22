@@ -10,11 +10,18 @@ const Tooltip  = ({text, children})=>{
 
   return(<div>
 
-    { show && <div className="tooltiptext">{text}</div>}
+    
     <h2 className="tooltip" onMouseEnter={()=> setShow(true)} onMouseLeave={()=> setShow(false)}>
       
       
-      <div>{children} </div>
+      <div>{children}
+        
+          <div> 
+
+            { show && <div className="tooltiptext">{text}</div>}
+          </div>
+        
+         </div>
 
 
 
