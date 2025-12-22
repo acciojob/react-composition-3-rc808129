@@ -7,10 +7,14 @@ import Tooltip from "./Tooltip";
 const App = () => {
   return (
     <div>
-        {/* Do not remove the main div */}
-       <Tooltip text="This is tooltip">
-        <p>Hover me</p>
-        </Tooltip>
+      <Tooltip text="This is heading tooltip">
+  <h2>Hover on heading</h2>
+</Tooltip>
+
+<Tooltip text="This is paragraph tooltip">
+  <p>Hover on paragraph</p>
+</Tooltip>
+
 
 
       
