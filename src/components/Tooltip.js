@@ -28,9 +28,11 @@ const Tooltip  = ({text, children})=>{
     </h2>
     <p className="tooltip" 
     onMouseEnter={()=> setNext(true)} onMouseLeave={()=> setNext(false)}>
+      <div>
       Hover over me
 
           {next && <span className="tooltiptext">This is a tooltip</span>}
+          </div>
 
     
       
