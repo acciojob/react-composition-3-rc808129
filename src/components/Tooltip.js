@@ -5,7 +5,7 @@ import React, { useState } from "react";
 const Tooltip  = ({text, children})=>{
 
   const [show, setShow] = useState(false);
-  const [next, setNext] = useState(false)
+  // const [next, setNext] = useState(false)
 
 
   return(<div>
@@ -26,7 +26,7 @@ const Tooltip  = ({text, children})=>{
 
 
     </h2>
-    <p className="tooltip" 
+    {/* <p className="tooltip" 
     onMouseEnter={()=> setNext(true)} onMouseLeave={()=> setNext(false)}>
       <div>
       {children}
@@ -35,8 +35,8 @@ const Tooltip  = ({text, children})=>{
           </div>
 
     
-      
-      </p>
+       */}
+      {/* </p> */}
    
       
   </div>)
